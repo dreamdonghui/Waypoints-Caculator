@@ -8,14 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Waypoints_Caculator
+namespace Waypoints
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
 
+        private void MainForm_load(object sender, EventArgs e)
+        {
+            this.Text = "航路规划" + "V" + "0.0.0.0";
+        }
     }
 }
