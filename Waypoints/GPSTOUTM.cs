@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Waypoints
 {
-    public partial class MainForm : Form
+    public partial class GPSTOUTM : Form
     {
-        public MainForm()
+        public GPSTOUTM()
         {
             InitializeComponent();
-        }
-
-        private void MainForm_load(object sender, EventArgs e)
-        {
-            this.Text = "航路规划" + "V" + "0.0.0.0";
         }
     }
 }
